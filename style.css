@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+body{
+   
+    background-image: url("light_house.jpg");
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+
+
+#bighead{
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+   text-align: center;
+  color: white;
+}
+
+.head2{
+    color: rgb(4, 90, 129);
+}
+
+/* login */
+
+.container{
+    width: 400px;
+    height: 500px;
+   text-align: center;
+   background-color: rgb(255, 255, 255);
+   margin: 36%;
+   margin-top: 7%;
+   padding: 5%;
+   border: 2px solid black;
+   font-family: 'Roboto', sans-serif;
+   
+   
+    
+}
+
+.container .text{
+    position: relative;
+    top: 7%;
+ 
+
+}
+
+
+/* input */
+
+.inp1{
+    border: none;
+    border-bottom: black solid 5px;
+    width: 400px;
+    font-size: 22px;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    outline: none;
+}
+
+.inp2{
+    border: none;
+    border-bottom: black solid 5px;
+    width: 400px;
+    font-size: 22px;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    outline: none;
+}
+
+/* button */
+
+.btn {
+    width: 250px;
+    height: 44px;
+    background-color: rgb(0, 24, 39);
+    color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+  
+    
+}
+
+.btn:hover {
+   
+    background-color: rgb(47, 152, 218);
+    cursor: pointer;
+    color: aliceblue;
+   
+    
+}
+
+p{
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+p span{
+    color: red;
+
+}
+
+
+.li a{
+    text-decoration: none;
+    
+}
