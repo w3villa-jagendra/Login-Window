@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("back.jpg");
+}
+
+#heading1 {
+    font-size: 3rem;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: rgb(10, 18, 138);
+}
+
+
+.container {
+    height: 600px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #2fccf1;
+    box-shadow: 5px 10px rgb(39, 152, 197);
+    text-align: center;
+
+}
+
+
+.info {
+    margin: 29px 25px;
+    height: 10px;
+    width: 60 px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+   
+
+}
+
+
+
+.regbtn {
+    font-size: 25px;
+    
+    padding: 5px;
+    width: 250px;
+    background-color: rgb(35, 140, 189);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.regbtn:hover{
+    background-color: rgb(10, 18, 138);
+}
