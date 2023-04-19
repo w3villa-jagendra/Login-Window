@@ -7,8 +7,12 @@
 body{
    
     background-image: url("light_house.jpg");
-    background-size: 100% ;
+   
     background-repeat: no-repeat;
+}
+
+h1 {
+    margin-bottom: 47px;
 }
 
 
@@ -30,8 +34,7 @@ body{
     height: 500px;
    text-align: center;
    background-color: rgb(255, 255, 255);
-   margin: 36%;
-   margin-top: 7%;
+   margin: auto;
    padding: 5%;
    border: 2px solid black;
    font-family: 'Roboto', sans-serif;
@@ -53,9 +56,10 @@ body{
 .inp1{
     border: none;
     border-bottom: black solid 5px;
-    width: 400px;
+    width: 20rem;
     font-size: 22px;
     margin-top: 40px;
+    padding: 20px;
     background-color: rgb(255, 255, 255);
     text-align: center;
     outline: none;
@@ -64,9 +68,10 @@ body{
 .inp2{
     border: none;
     border-bottom: black solid 5px;
-    width: 400px;
+    width: 20rem;
     font-size: 22px;
     margin-top: 40px;
+    padding: 20px;
     background-color: rgb(255, 255, 255);
     text-align: center;
     outline: none;
